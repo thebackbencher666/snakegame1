@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 #include<graphics.h>
 #include<time.h>
 char score[15];
@@ -192,6 +192,8 @@ int main()
 
     std::cout<<"Your score is : " <<(food-1)*10<<"\n\n";
     std::cout<<"Game Over !!!\n\n";
+     std::cout<<"Thanks for playing\n\n";
     getch();
     return 0;
 }
+
