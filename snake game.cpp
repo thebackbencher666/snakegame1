@@ -25,7 +25,7 @@ int main()
     // initialization for display snake ;
 
     snakeX[0] = 200,snakeY[0] = 200; // starting position of the snake
-    foodX = 200, foodY = 200; // starting position of food
+    foodX = 100, foodY = 100; // starting position of food
     key_dir = rand()%2;
 
 
@@ -39,7 +39,7 @@ int main()
         sprintf(score, "SCORE: %d", (food-1)*10);   // convert int value into string
         outtextxy(0, 0, score); // display live score in top left
 
-        setfillstyle(SOLID_FILL,red);  // initializing boarder color
+        setfillstyle(SOLID_FILL,blue);  // initializing boarder color
 
         bar(80,0,630,10); // upper boarder width,length
 
